@@ -1,0 +1,22 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.board_row {
+  display: flex;
+  gap: 5px;
+}
+
+.board_row_letter {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: bold;
+}

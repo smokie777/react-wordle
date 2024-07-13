@@ -1,0 +1,33 @@
+.keyboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.keyboard_row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.keyboard_letter {
+  width: 45px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.keyboard_letter--enter,
+.keyboard_letter--backspace {
+  width: 67.5px;
+}
+
+.keyboard_letter--enter {
+  font-size: 12px;
+}

@@ -1,7 +1,10 @@
 # react-wordle
+
 A wordle clone in React for funsies :)
 
-I timed myself to see how long it would take me to create this. The result time: _____
+I timed myself to see how long it would take me to create this. The result time: **\_**
+
+`npm run dev` to run this.
 
 (Vite boilerplate below)
 
@@ -24,12 +27,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
